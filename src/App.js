@@ -3,8 +3,8 @@ import "./App.css";
 
 function App() {
   const initialCityState = { city: "", state: "" };
-  const [cityState, setCityState] = useState(initialCityState);
-  const [zipcode, setZipcode] = useState("");
+  const [cityState] = useState(initialCityState);
+  const [zipcode] = useState("");
   return (
     <div className="App">
       <h1>City/State Lookup Tool</h1>
