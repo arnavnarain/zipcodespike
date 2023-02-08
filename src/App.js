@@ -92,9 +92,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>City/State Lookup Tool</h1>
       <form action="" className="form-data">
-        <label htmlFor="zip">Type Zip Code Here</label>
+        <label htmlFor="zip">Zip code</label>
         <input
           maxLength="5"
           className="zip"
